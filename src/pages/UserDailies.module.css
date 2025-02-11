@@ -1,0 +1,93 @@
+.customTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.newDailyButton {
+    padding: 1rem;
+    margin: 0 1rem 0 0;
+}
+
+.newDailyAndDailyDateContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin: 1rem 0;
+}
+
+.cardModified {
+    margin: 0 1rem 2rem 0;
+    background-color: var(--project-card-background);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    transition: transform 0.2s;
+}
+
+.cardModified:hover {
+    transform: scale(1.02);
+}
+
+.cardModified p {
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+.fieldContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.fieldContainer input {
+    width: 100%;
+}
+
+.tasksItemsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tasksItemsContainer p {
+    max-width: 90%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    margin-bottom: 1rem;
+}
+
+.deleteOut {
+    color: var(--delete-out-user-daily);
+}
+
+.deleteOut:hover {
+    color: var(--delete-out-user-daily-hover);
+}
+
+.tasksInputContainer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.tasksInputContainer button {
+    margin-left: 10px;
+}
+
+.paginationContainer {
+    margin-top: 24px;
+    text-align: center;
+}

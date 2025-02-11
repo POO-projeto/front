@@ -1,0 +1,118 @@
+.customTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.card {
+    width: 100%; 
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.filterUsersContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.userNameFilter {
+    max-width: 20rem;
+    margin: 0 1rem;
+}
+
+.select {
+    width: 10rem;
+}
+
+.filterUsersContainer {
+    margin-bottom: 1rem;
+}
+
+.truncatedText {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.responsiveCol {
+    flex-grow: 1;
+    width: 100% !important;
+}
+
+.userCard {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.userName {
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: var(--user-info-color);
+}
+
+.userInfo p {
+    margin-right: 8px;
+    font-weight: 500;
+}
+
+.userInfo span {
+    color: var(--blue);
+    font-weight: 400;
+}
+
+.userInfo svg {
+    margin-right: 8px;
+    color: var(--blue);
+}
+
+
+.userImageNameContainer {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.userImageNameContainer .ant-avatar {
+    margin-bottom: 8px;
+}
+
+
+.responsiveCol {
+    width: 100%;
+    border-width: 5px;
+    border-color: blue;
+}
+
+.userCard {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.userInfoContainer {
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.paginationContainer {
+    margin-top: 24px;
+    text-align: center;
+}

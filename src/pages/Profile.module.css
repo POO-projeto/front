@@ -1,0 +1,119 @@
+
+body,
+html {
+    background-color: var(--profile-html-body-background);
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.card {
+    background-color: var(--card-background-color);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+}
+
+.customTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.userImageNameContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.userImageNameContainer .image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--blue);
+    margin-bottom: 10px;
+}
+
+.userImageNameContainer p {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--user-name-color);
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+.userInfoContainer {
+    margin-top: 20px;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: var(--user-info-color);
+}
+
+.userInfo p {
+    margin-right: 8px;
+    font-weight: 500;
+}
+
+.userInfo span {
+    color: var(--blue);
+    font-weight: 400;
+}
+
+.userInfo svg {
+    margin-right: 8px;
+    color: var(--blue);
+}
+
+.updateButton {
+    background-color: var(--blue);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.updateButton:hover {
+    background-color: var(--blue-hover-update-profile);
+}
+
+.modalContainer {
+    max-width: 400px;
+}
+
+.modalTitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--black);
+}
+
+.fieldContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,98 @@
+.customTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.newProjectButton {
+    margin: 1rem 0;
+}
+
+.responsiveCol {
+    width: 100%;
+    border-width: 5px;
+    border-color: var(--blue);
+}
+
+.projectCard {
+    background-color: var(--project-card-background);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    transition: transform 0.2s;
+}
+
+.projectCard:hover {
+    transform: scale(1.02);
+}
+
+.projectCard p {
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+.inputField {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.saveButton {
+    width: 100%;
+    background-color: var(--blue);
+    color: var(--white);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.saveButton:hover {
+    background-color: var(--blue-hover-save-button);
+}
+
+.paginationContainer {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.modalCreateProject label {
+    margin-bottom: 5rem;
+}
+
+.modalCreateProject .inputName,
+.modalCreateProject .datePickerContainer,
+.modalCreateProject textarea {
+    margin-bottom: 1rem;
+}
+
+.modalEditProject .inputName,
+.modalEditProject .datePickerContainer,
+.modalEditProject textarea {
+    margin-bottom: 1rem;
+}
+
+.editEndDate {
+    margin-left: 1rem;
+}
+
+.startDate {
+    margin-right: 1rem;
+}
+
+.modalTitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--black);
+}

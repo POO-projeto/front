@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 50px;
+    height: 100%;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 100%;
+}
+
+.description {
+    font-size: 60px;
+    margin-right: 10px;
+}
+
+.leftContent {
+    flex: 1;
+    text-align: left;
+    align-content: left;
+}
+
+.imageContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    height: auto;
+}

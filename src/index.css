@@ -1,0 +1,71 @@
+:root {
+    --blue: #007bff;
+    --white: #fff;
+    --black: #000;
+    --blue-hover-update-profile: #007bffcc;
+    --blue-hover-save-button: #0056b3;
+    
+    --logout-button-hover-background: #ffffff22;
+    
+    
+    --menuItem-background-hover: #fbfbfb1a;
+    --menuItem-color-hover: #ecf0f1;
+    --content-background: #f4f6f9;
+    
+    --profile-html-body-background: #fff;
+    --card-background-color: #f9f9f9;
+    
+    --user-name-color: #333;
+    --user-info-color: #555;
+    
+    --project-card-background: #f9f9f9;
+    
+    --delete-out-user-daily: #c91414;
+    --delete-out-user-daily-hover: #800f0f;
+}
+
+.darkModeColors {
+    --blue: #007bff;
+    --white: #181A1B;
+    --black: #e8e6e3;
+    --blue-hover-update-profile: #0062cccc;
+    --blue-hover-save-button: #00458f;
+    
+    --logout-button-hover-background: #181a1b21;
+    
+    
+    --menuItem-background-hover: #1a1c1e1a;
+    --menuItem-color-hover: #dedbd6;
+    --content-background: #1D1F20;
+    
+    --profile-html-body-background: #181A1B;
+    --card-background-color: #1B1E1F;
+    
+    --user-name-color: #c8c3bc;
+    --user-info-color: #b2aca2;
+    --project-card-background: #1b1e1f;
+    
+    --delete-out-user-daily: #ec4444;
+    --delete-out-user-daily-hover: #ef7878;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1 {
+    font-size: 30px;
+    color: var(--black);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+
+}

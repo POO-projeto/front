@@ -1,0 +1,59 @@
+.customTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.filterDailiesContainer {
+    display: flex;
+    flex-direction: row;
+    width: 20rem;
+    margin: 1rem 0;
+}
+
+.filterDailiesContainer .filterDailiesSelect {
+    width: 10rem;
+    height: 2.23rem;
+}
+
+.filterDailiesContainer .filterDailiesDate {
+    height: 2.23rem;
+}
+
+.filterDailiesDate {
+    margin-right: 1rem;
+}
+
+.cardModified {
+    margin: 0 1rem 2rem 0;
+    background-color: var(--project-card-background);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    transition: transform 0.2s;
+}
+
+.cardModified:hover {
+    transform: scale(1.02);
+}
+
+.cardModified p {
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+.paginationContainer {
+    margin-top: 24px;
+    text-align: center;
+}
