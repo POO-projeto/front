@@ -143,6 +143,14 @@ export function Projects() {
 
     function isEditFormDataInvalid(data: EditFormData) {
         return Object.entries(data).some(([key, value]) => {
+            if (
+                value &&
+                key === "end_date" &&
+                dayjs(value).isBefore(dayjs(editFormData.start_date))
+            ) {
+                return true;
+            }
+
             if (key === "end_date") return false;
 
             return value === null || value === "" || value.length <= 0;

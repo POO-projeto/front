@@ -62,7 +62,8 @@ export function NewUserComponent(props: NewUserProps) {
                         formData.birthDate ?
                         dayjs(formData.birthDate) : null
                     }
-                    onChange={(date) => onChange("birthDate", date)}
+                    onChange={(date) => onChange("birthDate", date ? date.format("YYYY-MM-DD") : "")}
+                    allowClear={false}
                 />
             </div>
 
